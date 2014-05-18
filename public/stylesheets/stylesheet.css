@@ -1,0 +1,84 @@
+
+
+body {
+  	background: url(https://abs.twimg.com/a/1400186181/images/themes/theme1/bg.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	font-family: "Helvetica";
+	margin: 0px;
+	transition: all .25s ease-in-out;
+
+}
+
+.search-input {
+	position: absolute;
+	z-index: 0;
+	background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+	display: block;
+	width: 250px;
+	height: 32px;
+	padding: 12px 27px 6px 12px;
+	font-size: 12px;
+	line-height: 1;
+	color: #66757f;
+	background-color: #ccd6dd;
+	margin-top: 9px;
+	border: 0;
+	border-radius: 21px;
+	transition: all .2s ease-in-out;
+}
+
+.header {
+	border: 5px black;
+	background-color: white;
+	display: flex;
+	height: 51px;
+}
+
+.left {
+	margin-left: 64px;
+	flex: 1 15%;
+	display: flex;
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	margin-left: 20%;
+}
+
+.navbutton {
+	margin: 13px;
+	line-height: 1;
+
+}
+.center {
+
+	margin-left: 150px;
+	margin-right: 200px;
+}
+
+.buttontext {
+	color: #53616C;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 50px;
+	padding-right: 8px;
+
+}
+
+.navbutton img {
+	vertical-align: middle;
+}
+
+
+.twiterlogo {
+	position: absolute;
+	width: 25px;
+	height: 20px;
+	margin: 15px;
+	color: #55acee;
+}
