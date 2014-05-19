@@ -1,80 +1,115 @@
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="../public/stylesheets/stylesheet.css">
-		<title>Twitter</title>
-		<favicon src=" "
-	</head>
-	<body>
-		<div class="header">
-			<div class="left">
+<head>
+	<link rel="stylesheet" type="text/css" href="../public/stylesheets/stylesheet.css">
+	<title>Twitter</title>
+	<favicon src=" "
+</head>
+<body>
+	<div class="header">
+		<div class="left">
 
-				<div class="navbutton" id="home">
-					<img src="../public/images/HomeLogo.png">
-					<span class="buttontext">Home</span>
-				</div>
-
-				<div class="navbutton" id="notifications">
-					<img src="../public/images/NotificationsLogo.png"	>
-					<span class="buttontext">Notifications</span>
-				</div>
-
-				<div class="navbutton" id="discover">
-					<img src="../public/images/DiscoverLogo.png">
-					<span class="buttontext">Discover</span>
-				</div>
-
-				<div class="navbutton" id="me">
-					<img src="../public/images/MeLogo.png">
-					<span class="buttontext">Me</span>
-				</div>
-
+			<div class="navbutton" id="home">
+				<img src="../public/images/HomeLogo.png">
+				<span class="buttontext">Home</span>
 			</div>
-				<div class="center">
-				<div class="twitterlogo">
-					<img src="https://g.twimg.com/	Twitter_logo_blue.png" style="
-					width:22px;
-					height: 19px;
-					margin-top: 13px;">
-				</div>
-				</div>
 
-					<input class="search-input" type="text" id="search-query" placeholder="Search" name="q" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-expanded="false" aria-controls="typeahead-dropdown-8">
+			<div class="navbutton" id="notifications">
+				<img src="../public/images/NotificationsLogo.png"	>
+				<span class="buttontext">Notifications</span>
+			</div>
 
+			<div class="navbutton" id="discover">
+				<img src="../public/images/DiscoverLogo.png">
+				<span class="buttontext">Discover</span>
+			</div>
 
-			<div class="right">
+			<div class="navbutton" id="me">
+				<img src="../public/images/MeLogo.png">
+				<span class="buttontext">Me</span>
+			</div>
 
-				<div class="navbutton">
-					<img src="../public/images/MessagesLogo.png">
-				</div>
-
-				<div class="navbutton">
-					<img src="../public/images/SettingsLogo.png">
-				</div>
-
-				<div class="navbutton">
-					<img src="../public/images/ComposeLogo.png">
-				</div>
-
+		</div>
+		<div class="center">
+			<div class="twitterlogo">
+				<img src="https://g.twimg.com/	Twitter_logo_blue.png" style="
+				width:22px;
+				height: 19px;
+				margin-top: 13px;">
 			</div>
 		</div>
-		<div id="profile">
-			<img src="https://pbs.twimg.com/profile_images/378800000258243331/5f6b241dab046c83b02367f51d46aafa_bigger.jpeg">
-			<div id="profilefooter1">
-				<span id="tweets">TWEETS
-					<span>9001</span>
-				</span>
-				<span id="following">FOLLOWING
-					<span>420</span>
-				</span>
-				<span id="followers">FOLLOWERS
-					<span>1337</span>
-				</span>
+
+		<input class="search-input" type="text" id="search-query" placeholder="Search" name="q" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-expanded="false" aria-controls="typeahead-dropdown-8">
+
+
+		<div class="right">
+
+			<div class="navbutton">
+				<img src="../public/images/MessagesLogo.png">
+			</div>
+
+			<div class="navbutton">
+				<img src="../public/images/SettingsLogo.png">
+			</div>
+
+			<div class="navbutton">
+				<img  id="compose" src="../public/images/ComposeLogo2.png">
+			</div>
+
+		</div>
+	</div>
+	<div id="main">
+		<div id="personal">
+			<div id="profile" class="box">
+				<img id="profilepic" src="https://pbs.twimg.com/	profile_images/378	800000258243331/5f6b241dab	046c83b02367f51d46aafa_bigger.jpeg">
+				<div id="profiletext">
+					<h1>Joey Wolf</h1>
+					<h2>@MisterJWolf</h2>
 				</div>
-			<div id="profilefooter2">
-				<form><input type="text" name="newtweet" placeholder="Compose new Tweet..."></form>
+
+				<div id="profilefooter1">
+					<span class="miniheader" id="tweetnumber">TWEETS
+						<div class="mininumber">9001</div>
+					</span>
+					<span class="miniheader" id="followingnumber">FOLLOWING
+						<div class="mininumber">9001</div>
+					</span>
+					<span class="miniheader" id="followersnumber">FOLLOWERS
+						<div class="mininumber">9001</div>
+					</span>
+				</div>
+				<div id="profilefooter2">
+					<form><input type="text" name="newtweet" 		placeholder="Compose new Tweet..."></form>
+				</div>
+			</div>
+			<div id="trends" class="box">
+				TRENDY
 			</div>
 		</div>
 		<div id="feed">
-		Tweets
-	</body>
+			<div class="box">
+				Tweets
+			</div>
+		</div>
+		<div id="nav">
+			<div class="box">
+				placeholder
+			</div>
+			<div class="box">
+				placeholder
+			</div>
+		</div>
+	</div>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
